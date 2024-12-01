@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="wrapper-container">
+      <div class="wrapper-header laptop">
+        <a class="logo-header" href="/">
+          <img class="image-logo" src="../img/BMW.png" alt="Logo Header BMW" />
+        </a>
+        <div class="group-nav">
+          <div class="item-nav">Home</div>
+          <div class="item-nav">Showroom</div>
+          <div class="item-nav gray login-user">
+            <img
+              width="20px"
+              height="20px"
+              src="../img/profile-user.png"
+              alt="Icon login"
+            />
+            <div>Sign Up</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="wrapper-header-mobile" class="wrapper-header mobile">
+        <a class="logo-header" href="/">
+          <img class="image-logo" src="../img/BMW.png" alt="Logo Header BMW" />
+        </a>
+        <div class="group-nav">
+          <div class="item-nav btn-header-mobile">
+            <img
+              src="../img/home.png"
+              width="20px"
+              height="auto"
+              alt="Trang chu"
+            />
+          </div>
+          <a href="/cart" class="item-nav btn-header-mobile">
+            <img
+              src="../img/car.png"
+              width="20px"
+              height="auto"
+              alt="Show room"
+            />
+          </a>
+          <div class="item-nav btn-header-mobile">
+            <img
+              width="20px"
+              height="20px"
+              src="../img/login-avatar.png"
+              alt="Icon login"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper-cart">
+        <div class="group-cart">
+          <div class="header-cart">
+            <div class="col-1">Image</div>
+            <div class="col-2">Name</div>
+            <div class="col-3">Quantity</div>
+            <div class="col-4">Action</div>
+          </div>
+          <div class="body-cart" id="body-cart"></div>
+        </div>
+        <div
+          style="
+            padding: 0 5rem;
+            display: flex;
+            align-items: center;
+            column-gap: 1rem;
+          "
+        >
+          <h3>Total Price Cart:</h3>
+          <div
+            id="total-price"
+            style="color: brown; font-size: 18px; font-weight: 600"
+          ></div>
+        </div>
+        <div style="padding: 0 5rem">
+          <a class="btn btn-main" href="/checkout/" style="text-decoration: none;">Process Order</a>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper-footer">
+      <div class="box-footer">
+        <div class="footer-main">About</div>
+        <div class="footer-sub">How to work</div>
+        <div class="footer-sub">Careers</div>
+        <div class="footer-sub">About</div>
+      </div>
+      <div class="box-footer">
+        <div class="footer-main">Address</div>
+        <div class="footer-sub">Invite</div>
+        <div class="footer-sub">Gift</div>
+        <div class="footer-sub">About</div>
+      </div>
+      <div class="box-footer">
+        <div class="footer-main">Become seller</div>
+        <div class="footer-sub">Vehical</div>
+        <div class="footer-sub">Business</div>
+        <div class="footer-sub">Center</div>
+      </div>
+      <div class="box-footer">
+        <div class="footer-main">Booking support</div>
+        <div class="footer-sub">Help</div>
+        <div class="footer-sub">Support</div>
+        <div class="footer-sub">Center</div>
+      </div>
+    </div>
+    <div class="wrapper-final">
+      <div
+        style="
+          display: flex;
+          column-gap: 1rem;
+          font-weight: 600;
+          font-size: 14px;
+        "
+      >
+        <div>Privacy Policy</div>
+        <div>Term of use</div>
+      </div>
+      <div style="display: flex; column-gap: 0.5rem; font-weight: 600">
+        <img src="../img/earth.png" alt="Earth" width="20px" height="auto" />
+        <div>English</div>
+      </div>
+    </div>
+
+    <script src="./javascript.js"></script>
+  </body>
+</html>

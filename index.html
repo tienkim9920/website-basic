@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="wrapper-container">
+      <div class="wrapper-header laptop">
+        <div class="logo-header">
+          <img class="image-logo" src="./img/BMW.png" alt="Logo Header BMW" />
+        </div>
+        <div class="group-nav">
+          <div class="item-nav">Home</div>
+          <div class="item-nav">Showroom</div>
+          <div class="item-nav gray login-user">
+            <img
+              width="20px"
+              height="20px"
+              src="./img/profile-user.png"
+              alt="Icon login"
+            />
+            <div>Sign Up</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="wrapper-header-mobile" class="wrapper-header mobile">
+        <div class="logo-header">
+          <img class="image-logo" src="./img/BMW.png" alt="Logo Header BMW" />
+        </div>
+        <div class="group-nav">
+          <div class="item-nav btn-header-mobile">
+            <img
+              src="./img/home.png"
+              width="20px"
+              height="auto"
+              alt="Trang chu"
+            />
+          </div>
+          <div class="item-nav btn-header-mobile">
+            <img
+              src="./img/car.png"
+              width="20px"
+              height="auto"
+              alt="Show room"
+            />
+          </div>
+          <div class="item-nav btn-header-mobile">
+            <img
+              width="20px"
+              height="20px"
+              src="./img/login-avatar.png"
+              alt="Icon login"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper-banner">
+        <div class="box-banner">
+          <h1 class="title-banner">Find your next awesome ehicle</h1>
+          <div class="group-select-category">
+            <div class="select-category-item">
+              <div class="category-title gray">Type</div>
+              <select
+                name="category-card"
+                class="category-card"
+                id="category-card"
+              ></select>
+            </div>
+            <div class="line-vertical"></div>
+            <div class="select-category-item">
+              <div class="category-title gray">Model</div>
+              <select name="model-card" class="category-card">
+                <option value="classic-model">Classic Model</option>
+                <option value="style-model">Style Model</option>
+                <option value="fashion-model">Fashion Model</option>
+              </select>
+            </div>
+            <div class="line-vertical"></div>
+            <div class="select-category-item">
+              <div class="btn-category-item">
+                <img
+                  width="15px"
+                  height="auto"
+                  src="./img/search.png"
+                  alt="Tim kiem"
+                />
+                <div>Search</div>
+              </div>
+            </div>
+          </div>
+          <div class="box-pointer">
+            <div class="btn btn-main">
+              <img
+                width="25px"
+                height="auto"
+                src="./img/points.png"
+                alt="Pointer"
+              />
+            </div>
+            <div class="box-pointer-text">
+              <div class="main">Feature Vehical</div>
+              <div class="sub">Watch video to learn more</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper-brand">
+        <div class="logo-brand">
+          <img src="./img/BMW.png" width="100%" height="auto" alt="BMW" />
+        </div>
+        <div class="logo-brand">
+          <img src="./img/lexus.png" width="100%" height="auto" alt="BMW" />
+        </div>
+        <div class="logo-brand">
+          <img
+            src="./img/mercedes-benz-logo.png"
+            width="100%"
+            height="auto"
+            alt="BMW"
+          />
+        </div>
+        <div class="logo-brand">
+          <img
+            src="./img/porsche-logo.png"
+            width="100%"
+            height="auto"
+            alt="BMW"
+          />
+        </div>
+      </div>
+
+      <div class="wrapper-trending">
+        <h1 class="text-trending">Trending near you</h1>
+        <div class="control-input-search">
+          <input id="search-trending" type="text" placeholder="Enter Search!" />
+        </div>
+        <div
+          id="txt-result-some"
+          class="gray"
+          style="margin-bottom: 1rem"
+        ></div>
+        <div
+          id="txt-result-every"
+          class="gray"
+          style="margin-bottom: 1rem"
+        ></div>
+        <div class="group-trending" id="group-trending"></div>
+      </div>
+
+      <div class="wrapper-finding">
+        <div class="group-finding-nav">
+          <h1 class="text-finding">Find car by model</h1>
+          <div class="box-arrow">
+            <div class="item-arrow btn btn-primary">
+              <img
+                src="./img/left-arrow.png"
+                width="20px"
+                height="auto"
+                alt="Left Arrow"
+              />
+            </div>
+            <div class="item-arrow btn btn-primary">
+              <img
+                src="./img/right-arrow.png"
+                width="20px"
+                height="auto"
+                alt="Left Arrow"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="group-finding" id="group-finding">
+          <div class="box-finding">
+            <div class="logo-finding">
+              <img
+                src="/img/bmw-car-1.png"
+                width="100%"
+                height="auto"
+                alt="BMW1"
+              />
+            </div>
+            <div class="box-content-finding">
+              <div class="finding-main">BMW Version 1</div>
+              <div class="btn btn-finding">25,567 Vehical</div>
+            </div>
+          </div>
+          <div class="box-finding">
+            <div class="logo-finding">
+              <img
+                src="/img/bmw-car-1.png"
+                width="100%"
+                height="auto"
+                alt="BMW1"
+              />
+            </div>
+            <div class="box-content-finding">
+              <div class="finding-main">BMW Version 1</div>
+              <div class="btn btn-finding">25,567 Vehical</div>
+            </div>
+          </div>
+          <div class="box-finding">
+            <div class="logo-finding">
+              <img
+                src="/img/bmw-car-1.png"
+                width="100%"
+                height="auto"
+                alt="BMW1"
+              />
+            </div>
+            <div class="box-content-finding">
+              <div class="finding-main">BMW Version 1</div>
+              <div class="btn btn-finding">25,567 Vehical</div>
+            </div>
+          </div>
+          <div class="box-finding">
+            <div class="logo-finding">
+              <img
+                src="/img/bmw-car-1.png"
+                width="100%"
+                height="auto"
+                alt="BMW1"
+              />
+            </div>
+            <div class="box-content-finding">
+              <div class="finding-main">BMW Version 1</div>
+              <div class="btn btn-finding">25,567 Vehical</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper-footer">
+      <div class="box-footer">
+        <div class="footer-main">About</div>
+        <div class="footer-sub">How to work</div>
+        <div class="footer-sub">Careers</div>
+        <div class="footer-sub">About</div>
+      </div>
+      <div class="box-footer">
+        <div class="footer-main">Address</div>
+        <div class="footer-sub">Invite</div>
+        <div class="footer-sub">Gift</div>
+        <div class="footer-sub">About</div>
+      </div>
+      <div class="box-footer">
+        <div class="footer-main">Become seller</div>
+        <div class="footer-sub">Vehical</div>
+        <div class="footer-sub">Business</div>
+        <div class="footer-sub">Center</div>
+      </div>
+      <div class="box-footer">
+        <div class="footer-main">Booking support</div>
+        <div class="footer-sub">Help</div>
+        <div class="footer-sub">Support</div>
+        <div class="footer-sub">Center</div>
+      </div>
+    </div>
+    <div class="wrapper-final">
+      <div
+        style="
+          display: flex;
+          column-gap: 1rem;
+          font-weight: 600;
+          font-size: 14px;
+        "
+      >
+        <div>Privacy Policy</div>
+        <div>Term of use</div>
+      </div>
+      <div style="display: flex; column-gap: 0.5rem; font-weight: 600">
+        <img src="./img/earth.png" alt="Earth" width="20px" height="auto" />
+        <div>English</div>
+      </div>
+    </div>
+
+    <script src="./javascript.js"></script>
+  </body>
+</html>

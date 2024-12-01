@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <table border="1">
+      <thead>
+        <td colspan="2"><center>Đăng ký</center></td>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fullname</td>
+          <td><input type="text" placeholder="Nhap Fullname" /></td>
+        </tr>
+        <tr>
+          <td>Username</td>
+          <td><input type="text" placeholder="Nhap Username" /></td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td><input type="password" placeholder="Nhap Password" /></td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>
+            <div>
+              <input type="radio" value="male" name="gender" /><span>Nam</span>
+            </div>
+            <div>
+              <input type="radio" value="female" name="gender" /><span>Nu</span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Ngay sinh</td>
+          <td>
+            <select name="cars" id="cars">
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Dia chi</td>
+          <td>
+            <textarea rows="3" placeholder="Nhap dia chi"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>Avatar</td>
+          <td>
+            <input type="file" />
+          </td>
+        </tr>
+        <tr>
+          <td>So thich</td>
+          <td>
+            <div>
+              <input type="checkbox" value="Xem phim" />
+              <span>Xem phim</span>
+            </div>
+            <div>
+              <input type="checkbox" value="The thao" />
+              <span>The thao</span>
+            </div>
+            <div>
+              <input type="checkbox" value="Web" />
+              <span>Web</span>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td colspan="2">
+          <center>
+            <button>Reset</button>
+            <button>OK</button>
+          </center>
+        </td>
+      </tfoot>
+    </table>
+
+    <div class="container">
+      <div class="itemA">A</div>
+      <div class="itemB">B</div>
+      <div class="itemC">C</div>
+    </div>
+
+    <script src="./javascript.js"></script>
+  </body>
+</html>
